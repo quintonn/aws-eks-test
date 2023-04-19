@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# Test to replicate bug I've been running into
 
-This is a blank project for CDK development with TypeScript.
+Run:  
+`cdk deploy --require-approval=never`  
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+You may need to set profile, region and/or account, depending on your configuration.  
+I use the --profile flag as I have multiple AWS account settings configured.  
